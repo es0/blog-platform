@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blog',
+    'taggit',
 ]
 
 MIDDLEWARE = [
@@ -119,3 +120,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+
+EMAIL_HOST = 'smtp.ring-zer0.com'
+EMAIL_HOST_USER = 'carlsonj@ring-zer0.com'
+EMAIL_HOST_PASSWORD = 'bftsplk11L'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
